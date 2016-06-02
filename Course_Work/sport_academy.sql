@@ -162,7 +162,7 @@ ON sports.coach_id = coaches.id
 ORDER BY sports.id;
 
 
--- 5.Напишете заявка, в която демонстрирате едновременно JOIN и агрегатна функция.
+-- 5.
 
 SELECT students.id, students.name as StudentName, Count(taxes.amount) as NumOfTaxes
 FROM taxes JOIN students 
